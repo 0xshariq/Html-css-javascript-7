@@ -8,6 +8,10 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-image: url("./bg-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a {
@@ -18,10 +22,6 @@ a {
 .header {
   position: relative;
   min-height: 60vh;
-  background-image: url("./bg-image.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   color: white;
 }
 .bg-dark {
